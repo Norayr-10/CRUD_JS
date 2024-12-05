@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mother_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#centeDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(92, 52, 155);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#tasksTable {
+  width: 70%;
+  background-color: rgb(239, 239, 239);
+}
+
+#h1 {
+  display: inline;
+}
+
+#btn {
+  float: right;
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 3px 5px rgba(168, 168, 168, 0.38);
+  line-height: 0;
+}
+
+#taskInfo {
+  width: 70%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.circular {
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(114, 0, 0);
+}
+
+body {
+  background-color: rgb(30, 0, 77);
+}
+
+#clear_button {
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(0, 150, 30);
+}
+
+#Edit_button {
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 16, 197, 0.692);
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task {
+  display: flex;
+  background-color: white;
+  padding: 4px;
+  border-bottom: 1px solid black;
+  transition: box-shadow0.2s;
+}
+
+.done {
+  background-color: rgb(58, 256, 160);
+}
+
+#task:hover {
+  box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.843);
+}
+
+#tasks {
+  padding: 20px;
+}
